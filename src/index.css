@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*========================================================*/
+/*_________________________HEADER_________________________*/
+/*========================================================*/
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  height: 100px;
+}
+
+header nav div {
+  display: flex;
+}
+
+header nav div ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+header nav div ul li {
+  list-style: none;
+}
+
+header nav div ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1c486f;
+
+  border: transparent solid 3px;
+  border-radius: 14px;
+  padding: 5px;
+
+}
+
+header nav div ul li :hover {
+  border: #1c486f solid 3px;
+  border-radius: 14px;
+  padding: 5px;
+  background-color: #ef8120;
+}
