@@ -47,3 +47,22 @@ header nav div ul li :hover {
   padding: 5px;
   background-color: #ef8120;
 }
+
+/*========================================================*/
+/*_________________________FOOTER_________________________*/
+/*========================================================*/
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+footer h5 {
+  color: #1c486f;
+}
+
+footer a {
+  color: #1c486f;
+  font-size: 13px
+}
