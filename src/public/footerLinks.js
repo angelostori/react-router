@@ -2,35 +2,35 @@ const footerLinks = [
     {
         title: "Shop",
         links: [
-            { label: "Nuovi Arrivi", url: "/new" },
-            { label: "Best Seller", url: "/best-seller" },
-            { label: "Categorie", url: "/categories" },
-            { label: "Offerte", url: "/offers" }
+            { label: "Nuovi Arrivi", url: "" },
+            { label: "Best Seller", url: "" },
+            { label: "Categorie", url: "" },
+            { label: "Offerte", url: "" }
         ]
     },
     {
         title: "Support",
         links: [
-            { label: "Contatti", url: "/contacts" },
-            { label: "FAQ", url: "/faq" },
-            { label: "Resi e Rimborsi", url: "/returns" },
-            { label: "Spedizioni", url: "/shipping" }
+            { label: "Contatti", url: "" },
+            { label: "FAQ", url: "" },
+            { label: "Resi e Rimborsi", url: "" },
+            { label: "Spedizioni", url: "" }
         ]
     },
     {
         title: "Legal",
         links: [
-            { label: "Privacy Policy", url: "/privacy" },
-            { label: "Cookie Policy", url: "/cookies" },
-            { label: "Termini e Condizioni", url: "/terms" }
+            { label: "Privacy Policy", url: "" },
+            { label: "Cookie Policy", url: "" },
+            { label: "Termini e Condizioni", url: "" }
         ]
     },
     {
         title: "Agency",
         links: [
-            { label: "Chi Siamo", url: "/about" },
-            { label: "Lavora con Noi", url: "/careers" },
-            { label: "Blog", url: "/blog" }
+            { label: "Chi Siamo", url: "" },
+            { label: "Lavora con Noi", url: "" },
+            { label: "Blog", url: "" }
         ]
     },
     {
