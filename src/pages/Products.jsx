@@ -15,7 +15,7 @@ export default function Products() {
 
 
     return (
-        <div className="jumbo prod">
+        <div className="jumbo prods">
             <div className="container">
                 <h1 className="mb-4">I nostri Prodotti</h1>
 

@@ -80,11 +80,11 @@ footer a {
 /*_________________________PRODUCTS______________________*/
 /*========================================================*/
 
-.prod img {
+.prods img {
   height: 200px;
   object-fit: contain;
 }
 
-.prod .card-title {
+.prods .card-title {
   font-size: 0.9rem;
 }
