@@ -34,7 +34,7 @@ export default function Products() {
                                         {prod.title}
                                     </h5>
                                     <p className="fw-bold">€ {prod.price}</p>
-                                    <Link to={"/product"} className="btn btn-dark">Info Articolo</Link>
+                                    <Link to={`/product/${prod.id}`} className="btn btn-dark">Info Articolo</Link>
                                 </div>
                             </div>
                         </div>
