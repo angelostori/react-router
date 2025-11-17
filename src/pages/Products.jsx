@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 export default function Products() {
@@ -33,6 +34,7 @@ export default function Products() {
                                         {prod.title}
                                     </h5>
                                     <p className="fw-bold">€ {prod.price}</p>
+                                    <Link to={"/product"} className="btn btn-dark">Info Articolo</Link>
                                 </div>
                             </div>
                         </div>
