@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
+import Product from "./pages/Product";
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
+          <Route path="product" element={<Product />} />
         </Route>
       </Routes>
     </BrowserRouter>
