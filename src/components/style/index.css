@@ -88,3 +88,24 @@ footer a {
 .prods .card-title {
   font-size: 0.9rem;
 }
+
+/*========================================================*/
+/*_________________________PRODUCT______________________*/
+/*========================================================*/
+
+.prod button {
+  font-weight: 500;
+  color: #1c486f;
+  background-color: transparent;
+  border: transparent solid 3px;
+  border-radius: 14px;
+  padding: 5px;
+  margin: 1rem;
+}
+
+.prod button:hover {
+  border: #1c486f solid 3px;
+  border-radius: 14px;
+  padding: 5px;
+  background-color: white;
+}

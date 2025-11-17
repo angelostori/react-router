@@ -13,13 +13,15 @@ export default function Product() {
             .then(data => setProduct(data))
     }, [id])
 
+    const navigate = useNavigate()
+
     return (
 
         <div className="jumbo">
             <div className="container">
                 <h1>{product.title}</h1>
-                <div className="row">
-                    <div className="col-6 vh-100">
+                <div className="row prod">
+                    <div className="col-6 vh-100 my-5">
                         <img src={product.image} className="img-fluid" />
                     </div>
                     <div className="col-6 my-5">
@@ -29,6 +31,14 @@ export default function Product() {
                         <hr />
                         <p><strong>Rating: </strong>{product.rating?.rate} ({product.rating?.count})</p>
                         <h3>€ {product.price}</h3>
+                        <hr />
+                        <div>
+                            <button onClick={() => navigate(`/product/${product.id - 1}`)}>&lt; Prev</button>
+                            <button onClick={() => navigate(`/product/${product.id + 1}`)}>Next &gt;</button>
+                        </div>
+
+
+
                     </div>
                 </div>
             </div>
